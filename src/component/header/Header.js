@@ -7,7 +7,8 @@ const Header = () => {
   const fetchMessage = async () => {
     try {
       const res = await axios.get(
-        "http://192.168.31.169:5001/api/admins/" + localStorage.getItem("id"),
+        "http://api.xdiasporamedia.com/api/admins/" +
+          localStorage.getItem("id"),
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),

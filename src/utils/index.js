@@ -1,3 +1,3 @@
-const BASE_URL = "http://192.168.31.169:5001/api/";
+const BASE_URL = "http://api.xdiasporamedia.com/api/";
 
 export default BASE_URL;
