@@ -7,7 +7,7 @@ const Header = () => {
   const fetchMessage = async () => {
     try {
       const res = await axios.get(
-        "http://api.xdiasporamedia.com/api/admins/" +
+        "https://api.xdiasporamedia.com/api/admins/" +
           localStorage.getItem("id"),
         {
           headers: {
