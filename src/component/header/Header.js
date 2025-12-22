@@ -71,7 +71,7 @@ const Header = () => {
           color: "#000000",
         }}
       >
-        Corper News Admin Panel
+        XDiaspora Media Admin Panel
       </h2>
 
       <div style={{ fontSize: "14px", color: "#000000" }}>
