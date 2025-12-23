@@ -83,9 +83,12 @@ const PublishNewsModal = ({ type, visible, onClose, onPublish }) => {
 
             <Form.Item label="Section" name="section">
               <Select placeholder="Select Section">
-                <Option value="Editor's Pick">Diaspora Voices</Option>
-                <Option value="Top Stories">Immigration News</Option>
-                <Option value="Trending Stories">Visa & Travel Guides</Option>
+                <Option value="Top Stories">Top Stories</Option>
+                <Option value="Diaspora Voices">Diaspora Voices</Option>
+                <Option value="Immigration News">Immigration News</Option>
+                <Option value="Visa & Travel Guides">
+                  Visa & Travel Guides
+                </Option>
                 <Option value="World News">World News</Option>
               </Select>
             </Form.Item>
